@@ -7,3 +7,7 @@ resources:
 - deployment.yaml
 - service.yaml
 - post-sync.yaml
+
+images:
+- name: gcr.io/heptio-images/ks-guestbook-demo
+  newTag: 0.2
